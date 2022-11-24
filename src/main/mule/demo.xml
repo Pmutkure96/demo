@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="bcc738ed-3df9-4467-8019-da3a0d6b7089" >
+		<http:listener-connection host="0.0.0.0" port="8086" />
+	</http:listener-config>
+	<flow name="demoFlow" doc:id="aad23961-a18a-49b4-9c43-0b54a075151b" >
+		<http:listener doc:name="Listener" doc:id="d36e15b0-c20c-4b00-9527-278b627ab78e" config-ref="HTTP_Listener_config" path="/demo"/>
+		<logger level="INFO" doc:name="Logger" doc:id="24a6da9d-4193-4171-983d-e61899018494" message="flow started"/>
+		<logger level="INFO" doc:name="Logger" doc:id="a867ab74-4bb4-4e8b-8d65-fd442cf17a25" message="sucessfully processed"/>
+	</flow>
+</mule>
