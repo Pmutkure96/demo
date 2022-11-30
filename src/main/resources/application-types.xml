@@ -2,3 +2,4 @@
 <types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
   <types:catalog/>
 </types:mule>
+<!--comment added by dev 1-->
