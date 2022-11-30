@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="24a6da9d-4193-4171-983d-e61899018494" message="flow started"/>
 		<logger level="INFO" doc:name="Logger" doc:id="a867ab74-4bb4-4e8b-8d65-fd442cf17a25" message="demo flow executed"/>
 		<logger level="INFO" doc:name="Logger" doc:id="7733201f-f96b-4d77-ae67-e20a37e83500" message="logger added"/>
+		<logger level="INFO" doc:name="Logger" doc:id="7733201f-f96b-4d77-ae67-e20a37e83500" message="comment logger added on git by developer 2"/>
 	</flow>
 </mule>
