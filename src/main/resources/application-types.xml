@@ -2,4 +2,8 @@
 <types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
   <types:catalog/>
 </types:mule>
+<<<<<<< HEAD
 <!--comment added by dev 1-->
+=======
+/* comment added by dev2 */
+>>>>>>> 39f5b92c1d22aed0d51e088ea525ca0808b17fc4
